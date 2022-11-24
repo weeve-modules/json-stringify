@@ -67,8 +67,8 @@ Input to this module can be any JSON
         "magnitude": 2
     },
     {
-        "frequency": 6,
-        "magnitude": 25
+        "frequency": 6.135,
+        "magnitude": 25.1
     }
 ]
 ```
@@ -79,6 +79,6 @@ Output of this module is that JSON converted to a string, with the OUTPUT_LABEL:
 
 ```json
 {
-   "OUTPUT_LABEL": "[\n    {\n        \"frequency\": 270,\n        \"magnitude\": 2\n    },\n    {\n        \"frequency\": 6,\n        \"magnitude\": 25\n    }\n]"
+    "OUTPUT_LABEL": "[{\"frequency\": 270, \"magnitude\": 2}, {\"frequency\": 6.135, \"magnitude\": 25.1}]"
 }
 ```

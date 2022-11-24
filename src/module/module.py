@@ -5,6 +5,8 @@ Data processing should happen here.
 Edit this file to implement your module.
 """
 
+import json
+from os import getenv
 from logging import getLogger
 
 log = getLogger("module")
@@ -29,7 +31,7 @@ def module_main(received_data: any) -> [any, str]:
     try:
         # YOUR CODE HERE
 
-        processed_data = received_data
+        processed_data = {getenv("OUTPUT_LABEL"): json.dumps(received_data)}
 
         return processed_data, None
 
