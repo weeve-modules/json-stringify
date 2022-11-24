@@ -1,14 +1,15 @@
 version: "3.0"
 services:
-  boilerplate:
+  json-stringify:
     build:
       context: ../
       dockerfile: docker/Dockerfile
     environment:
-      MODULE_NAME: "boilerplate"
+      MODULE_NAME: "json-stringify"
       MODULE_TYPE: "Processing"
       INGRESS_HOST: "0.0.0.0"
       INGRESS_PORT: "80"
       EGRESS_URLS: "https://testdockercompose.free.beeceptor.com"
+      OUTPUT_LABEL: "message"
     ports:
       - 80:80
