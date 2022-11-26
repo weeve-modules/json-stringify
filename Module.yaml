@@ -10,7 +10,7 @@ image:
   name: 'weevenetwork/json-stringify'     # Image name from the docker registry.
   tag: 'v1.0.0'                               # Image tag from the docker registry.
   homepage: 'https://hub.docker.com/r/weevenetwork/json-stringify'      # Image homepage from the docker registry.
-repository: 'https://github.com/weevennetwork/json-stringify'     # Repository URL to source code.
+repository: 'https://github.com/weeve-modules/json-stringify'     # Repository URL to source code.
 envs:                                   # Array of environment variables that will be used to configure the module. Also used to show related fields on the UI.
   - name: Output Label                   # name of the field to be displayed on the UI.
     key: OUTPUT_LABEL                # key to set in the environment variables.
