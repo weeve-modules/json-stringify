@@ -3,7 +3,7 @@
 |           |                                                                                     |
 | --------- | ----------------------------------------------------------------------------------- |
 | name      | JSON Stringify                                                                      |
-| version   | v1.0.0                                                                              |
+| version   | v1.0.1                                                                              |
 | DockerHub | [weevenetwork/json-stringify](https://hub.docker.com/r/weevenetwork/json-stringify) |
 | authors   | Paul Gaiduk                                                                         |
 
